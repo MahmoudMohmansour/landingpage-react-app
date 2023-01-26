@@ -1,0 +1,57 @@
+.testemonial{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+.testemonial .animation{
+    transition: all 0.3s ease-in;
+}
+.testemonial .animation:hover{
+    transform: translateY(-10px);
+}
+
+.testemonial .card-title{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.testemonial .card-title img{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: -40px auto;
+}
+.testemonial .card-title p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-style: italic;
+    color: #95a0b3;
+    width: 89%;
+    margin: 49px auto;
+    line-height: 34px;
+    font-weight: 600;
+}
+.testemonial .card-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.testemonial  .card-name h5{
+    font-size: 17px;
+}
+.testemonial  .card-name span{
+    margin-bottom: 8px;
+    color: #ccc;
+    font-size: 18px;
+}
+/*===== start media query=======*/
+.testemonial .animation{
+    transition: all 0.3s ease-in;
+    margin-top: 20px;
+}

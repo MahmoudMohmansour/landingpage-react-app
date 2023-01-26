@@ -1,0 +1,81 @@
+.pricing .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family:  'Poppins', sans-serif;
+    transition: all 0.2s ease-in;
+}
+.pricing .box:hover{
+    transform: translateY(-10px);
+}
+.pricing .box h6{
+    padding-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 16px;
+}
+.pricing .box h4{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.pricing .box h4:hover{
+    color: #FB3E3E;
+    transform: scale(1.5);
+}
+.pricing .box p{
+    color: #95A0AB;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.pricing hr{
+    width: 76%;
+    margin: auto;
+    padding: 20px;
+}
+.pricing .box ul{
+    list-style: none;
+}
+.pricing .box li{
+    color: #FB3E3E;
+    color: #FB3E3E;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.pricing .box li span{
+    margin-right: 6px;
+    text-align: left;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.pricing .box button{
+    background-color: #FB3E3E;
+    border: 1px solid #FB3E3E;
+    padding: 8px 26px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 30px;
+    transition: all 0.3s ease-in;
+}
+.pricing .box button:hover{
+    transform: translateY(-10px);
+    opacity: 0.7;
+    border: 1px solid red;
+}
+@media (max-width:767px) {
+    .pricing .box{
+        margin: 15px 15px 15px 0px;
+    }
+}

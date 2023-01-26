@@ -1,0 +1,208 @@
+header{
+    
+    background-image: url(../../../Assetes/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    
+    
+}
+header .header-overlay{
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 25px 0;
+
+  
+}
+header .header-overlay .row{
+    margin: 60px 0;
+}
+header h2{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 60px auto;
+    width: 79%;
+}
+header p{
+    color: #cabed8;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 35px auto;
+    width: 61%;
+}
+header form{
+    margin: 25px auto;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 53%;
+    max-width: 100%;
+    padding: 7px;
+    height: 75px;
+
+}
+header form input{
+    background-color: #fff;
+    width: 500px;
+    height: 45px;
+    outline: none !important;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    text-align: left;
+    color: #1f1f1f;
+    font-size: 18px;
+    padding: 7px ;
+
+}
+header form button{
+    background-color: #fb3e3e;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #fb3e3e;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    transition: all 0.5s ease-in;
+}
+header form button:hover{
+    transform: translateX(10px);
+    opacity: 0.7;
+}
+/*===== start media query=======*/
+@media (max-width:991px) {
+    html{
+        overflow-x: hidden;
+    }
+    header h2{
+        width: 100%;
+        font-size: 33px; 
+    }
+    header p{
+        font-size: 17px;
+        width: 100%;
+    }
+    header form{
+      
+        margin: 25px auto;
+        border-radius: 30px;
+        background-color: #fff;
+         width: 98%; 
+        max-width: 100%;
+        padding: 7px;
+        height: 51px;
+        position: relative;
+    
+    }
+    header form input{
+        background-color: #fff;
+        width: 473px;
+        height: 21px;
+        outline: none !important;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        text-align: left;
+        color: #1f1f1f;
+        font-size: 18px;
+        padding: 7px;
+        margin-right: 133px;
+        margin-top: 7px;
+    
+    }
+    header form button{
+        background-color: #fb3e3e;
+        width: 140px;
+        height: 45px;
+        border: 1px solid #fb3e3e;
+        border-radius: 30px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 8px;
+        transition: all 0.5s ease-in;
+        position: absolute;
+        right: 7px;
+        bottom: 3px;
+    }
+}
+@media (max-width:767px) {
+    html{
+        overflow-x: hidden;
+    }
+    header h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin: 60px auto;
+        width: 86%;
+        line-height: 54px;
+    }
+    header p{
+        font-size: 17px;
+        width: 100%;
+    }
+    header form{
+      
+        margin: 25px auto;
+        border-radius: 30px;
+        background-color: #fff;
+         width: 98%; 
+        max-width: 100%;
+        padding: 7px;
+        height: 51px;
+        position: relative;
+    
+    }
+    header form input{
+        background-color: #fff;
+        width: 300px;
+        height: 26px;
+        outline: none !important;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        text-align: left;
+        color: #1f1f1f;
+        font-size: 18px;
+        padding: 7px ;
+    
+    }
+    header form button{
+        background-color: #fb3e3e;
+        width: 140px;
+        height: 45px;
+        border: 1px solid #fb3e3e;
+        border-radius: 30px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 8px;
+        transition: all 0.5s ease-in;
+        position: absolute;
+        right: 7px;
+        bottom: 3px;
+    }
+}
+@media (max-width:400px) {
+    header h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin: 60px auto;
+        width: 100%;
+        line-height: 54px;
+    }
+}

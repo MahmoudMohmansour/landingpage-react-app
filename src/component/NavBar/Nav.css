@@ -1,0 +1,65 @@
+nav{
+    background: linear-gradient(to right, #512da8, #711e72);
+    
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0 5px 30px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 99999;
+  
+    
+    
+}
+nav.naavbaar{
+    position: fixed;
+    z-index: 999;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 16%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in;
+}
+nav .logo:hover{
+    color: #FB3E3E;
+    transform: translateX(10px);
+}
+nav .navbar-nav{
+    color: #fff;
+    font-size: 21px;
+}
+nav .navbar-nav a{
+    color: #cabed8;
+    margin-right: 20px;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+nav .navbar-nav a:hover{
+    color: #fff;
+}
+nav  button{
+    background-color: #FB3E3E;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #fb3e3e;
+    padding: 8px 27px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.5s ease-in;
+    text-transform: capitalize;
+
+}
+nav  button:hover{
+    transform: translateX(15px);
+    border: 1px solid red;
+}
+
+
+
